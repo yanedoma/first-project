@@ -16,16 +16,16 @@ $ mkdir new-dir # создали директорию new-dir
 
 $ cp что_копируем куда_копируем
 $ cp index.html src/
-# скопировали index.html в папку src 
+скопировали index.html в папку src 
 
 
 $ mv table.csv ./very-important-files
-# сначала указываем имя файла, который хотим переместить, потом путь — куда перемещаем 
+сначала указываем имя файла, который хотим переместить, потом путь — куда перемещаем 
 
 $ cd very-important-files
 $ ls
 table.csv 
-# перешли в папку very-important-files и проверили, что всё сработало
+перешли в папку very-important-files и проверили, что всё сработало
 
 
 $ cat myfile.txt # распечатали содержимое файла myfile.txt
@@ -38,9 +38,9 @@ file-content-2
 Выполняйте сразу несколько команд
 Команды в терминале необязательно вбивать и выполнять по очереди. Их можно указывать не по одной, а сразу списком. Для этого их нужно разделить двумя амперсандами (&&).
 $ mkdir second-project && cd second-project && touch index.html style.css
-# создаём папку second-project,
-# переходим в папку second-project
-# и создаём в ней два файла: index.html и style.css 
+создаём папку second-project,
+переходим в папку second-project
+и создаём в ней два файла: index.html и style.css 
 
 
 ______
